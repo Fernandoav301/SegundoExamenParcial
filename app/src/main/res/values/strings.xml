@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SegundoExamenParcial</string>
+    <string name="dialog_positive">Aceptar</string>
+    <string name="dialog_negative"> Cancelar</string>
+    <string name="dialog_title">Bienvenido </string>
+    <string name="dialog_message">Estimado cliente para ver los video es necesario que tome una foto de perfil</string>
+    <string name="video">Reproducir Video</string>
+    <string name="pause">Pausar Video</string>
+    <string name="stop">Regrsar al menú</string>
+
+
+
+</resources>

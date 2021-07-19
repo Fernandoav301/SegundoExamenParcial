@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu"
+    android:background="@mipmap/fondo"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="723dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/cari"
+            android:layout_marginTop="20dp"
+            android:text="Menú"
+            android:layout_gravity="center"
+            style="@style/CardView.Dark"
+            android:fontFamily="sans-serif-black"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/contenido"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/caricatura"
+            style="@style/CardView.Dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Caricatura"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp" />
+
+
+        <ImageView
+            android:id="@+id/carica"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_marginTop="0dp"
+            android:src="@mipmap/caricatura"
+            android:text="$100" />
+
+        <TextView
+            android:id="@+id/accion"
+            style="@style/CardView.Dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Caricatura y Acción"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/acc"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            android:src="@mipmap/accion" />
+
+        <TextView
+            android:id="@+id/terror"
+            style="@style/CardView.Dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caricatura, Acción y Terror"
+            android:layout_gravity="center"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/miedo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            android:src="@mipmap/terror"
+            android:text="$100" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
