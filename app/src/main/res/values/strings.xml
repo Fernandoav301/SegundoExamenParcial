@@ -7,6 +7,10 @@
     <string name="video">Reproducir Video</string>
     <string name="pause">Pausar Video</string>
     <string name="stop">Regrsar al menú</string>
+    <string name="caricatura">Caricaturas</string>
+    <string name="Accion">Caricaturas y Acción</string>
+    <string name="terror">Caricaturas, Acción y Terror</string>
+    <string name="repro">Reproductor</string>
 
 
 
